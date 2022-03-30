@@ -9,7 +9,8 @@ try:
         line = myFile.readline()
         print("{}:".format(count) + line, end="")
         count = count + 1
+    myFile.close()
 except FileNotFoundError:
     print("파일이 없습니다")
-myFile.close()
+
 
