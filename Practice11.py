@@ -11,6 +11,5 @@ try:
         count = count + 1
 except FileNotFoundError:
     print("파일이 없습니다")
-
 myFile.close()
 
